@@ -1,0 +1,64 @@
+header {
+    background-color: #fff700;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
+input {
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #fff700;
+    outline: none;
+    font-size: 18px;
+}
+button {
+    width: 100%;
+    border: none;
+    font-size: 22px;
+    padding: 5px 0px;
+    background-color: #f8e71c;
+    cursor: pointer;
+}
+.box {
+    width: 500px;
+    box-shadow: 6px 5px 6px 6px rgba(0 , 0 , 0 , 0.16);
+    border-radius: 12px;
+    padding: 3.5rem;
+    color: #000000;
+    border-color: #f8e71c;
+    border-style: groove;
+    background-size: cover;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+}
+.text-box {
+    padding : 14px 0px;
+    font-size: larger;
+    align-items: center;
+    display:flex;
+    
+}
+
+.dangky{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: #333;
+    color: #f8e71c;
+    text-align: center;
+    padding: 1rem;
+}
+
+p{
+    text-align: center;
+}
+
+.register-container{
+    background-image: url(./Ảnh/nhung-hinh-anh-ve-tet-trung-thu-dep-y-nghia-nhat-1.jpg)
+};

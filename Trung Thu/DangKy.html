@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" type="text/css" href="./style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Trung thu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./BanHang.html">Bán hàng</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tài khoản
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./DangKy.html">Đăng ký</a></li>
+                    <li><a class="dropdown-item" href="./DangNhap.html">Đăng nhập</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <header>
+      <h1>Đăng Ký</h1>
+</header>
+    
+<div class="register-container">
+    <form id="register-form">
+        <div class="dangky">
+            <div class="box">
+                <div class="text-box">
+                    <h4> Tên:              </h4>
+                    <input type="text" placeholder="" name="ten" id="ten">
+                </div>
+
+                <div class="text-box">
+                    <h4> Gmail: </h4>
+                    <input type="text" placeholder="" name="gmail" id="gmail">
+                </div>
+
+                <div class="text-box">
+                    <h4>  Nhập mật khẩu: </h4>
+                    <input type="text" placeholder="" name="tenDangNhap" id="nhapMatKhau">
+                </div>
+
+                
+                <div class="text-box">
+                    <h4> Nhập lại mật khẩu: </h4>
+                    <input type="text" placeholder="" name="tenDangNhap" id="nhaplaiMatKhau">
+                </div>
+
+
+                <div class="text-box">
+                    <select class="" placeholder="Chọn giới tính" name="genderRegister" id="genderRegister" required="">
+                        <option value="">Chọn giới tính:</option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                    </select>
+                </div>
+                <div class="text-box ">
+                    <select class="" placeholder="Tỉnh thành phố nơi sinh sống" 
+                                name="cityPresent" id="cityPresent" required="">
+                                <option value="">Tỉnh thành phố nơi sinh sống</option>
+                                <option value="1">TP. Hồ Chí Minh</option>
+                                <option value="2">Hà Nội</option>
+                                <option value="3">An Giang</option>
+                                <option value="4">Bà Rịa-Vũng Tàu</option>
+                                <option value="5">Bắc Kạn</option>
+                                <option value="6">Bắc Giang</option>
+                                <option value="7">Bạc Liêu</option>
+                                <option value="8">Bắc Ninh</option>
+                                <option value="9">Bến Tre</option>
+                                <option value="10">Bình Định</option>
+                                <option value="11">Bình Dương</option>
+                                <option value="12">Bình Phước</option>
+                                <option value="13">Bình Thuận</option>
+                                <option value="14">Cà Mau</option>
+                                <option value="15">Cần Thơ</option>
+                                <option value="16">Cao Bằng</option>
+                                <option value="17">Đà Nẵng</option>
+                                <option value="18">Đắk Lắk</option>
+                                <option value="19">Đắk Nông</option>
+                                <option value="20">Điện Biên</option>
+                                <option value="21">Đồng Nai</option>
+                                <option value="22">Đồng Tháp</option>
+                                <option value="23">Gia Lai</option>
+                                <option value="24">Hà Giang</option>
+                                <option value="25">Hậu Giang</option>
+                                <option value="26">Hà Nam</option>
+                                <option value="28">Hà Tĩnh</option>
+                                <option value="29">Hải Dương</option>
+                                <option value="30">Hải Phòng</option>
+                                <option value="31">Hòa Bình</option>
+                                <option value="32">Hưng Yên</option>
+                                <option value="33">Khánh Hòa</option>
+                                <option value="34">Kiên Giang</option>
+                                <option value="35">Kon Tum</option>
+                                <option value="36">Lai Châu</option>
+                                <option value="37">Lâm Đồng</option>
+                                <option value="38">Lạng Sơn</option>
+                                <option value="39">Lào Cai</option>
+                                <option value="40">Long An</option>
+                                <option value="41">Nam Định</option>
+                                <option value="42">Nghệ An</option>
+                                <option value="43">Ninh Bình</option>
+                                <option value="44">Ninh Thuận</option>
+                                <option value="45">Phú Thọ</option>
+                                <option value="46">Quảng Bình</option>
+                                <option value="47">Quảng Nam</option>
+                                <option value="48">Quảng Ngãi</option>
+                                <option value="49">Quảng Ninh</option>
+                                <option value="50">Quảng Trị</option>
+                                <option value="51">Sóc Trăng</option>
+                                <option value="52">Sơn La</option>
+                                <option value="53">Thừa Thiên Huế</option>
+                                <option value="54">Tây Ninh</option>
+                                <option value="55">Phú Yên</option>
+                                <option value="56">Thái Bình</option>
+                                <option value="57">Thái Nguyên</option>
+                                <option value="58">Thanh Hóa</option>
+                                <option value="59">Tiền Giang</option>
+                                <option value="60">Trà Vinh</option>
+                                <option value="61">Tuyên Quang</option>
+                                <option value="62">Vĩnh Long</option>
+                                <option value="63">Vĩnh Phúc</option>
+                                <option value="64">Yên Bái</option>
+                    </select>
+                  
+                </div>
+
+                <div class="text-box">
+                    <button type="submit">Đăng Ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<p>Nếu bạn đã có tài khoản, <a href="./DangNhap.html">đăng nhập ngay</a>.</p>
+
+<footer>
+    <p>© 2023 Tết Trung Thu</p>
+    Email : thanh2006hanh@gmail.com
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
